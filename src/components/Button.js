@@ -19,4 +19,9 @@ export default styled.button`
   &:active{
     background: ${({ theme }) => theme.colors.primary.dark};
   }
+
+  &[disabled]{
+    background: #ccc;
+    cursor: default;
+  }
 `;

@@ -1,5 +1,5 @@
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import { useState } from 'react';
 import Button from '../Button';
 import FormGroup from '../FormGroup';
 import Input from '../Input';
